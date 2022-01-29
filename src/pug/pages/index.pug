@@ -1,0 +1,24 @@
+extends ../layout/main
+
+block append vars
+    - var siteTitle = 'Some Title';
+    - var pageClass = 'index-page';
+
+block content
+    main.page
+        .container
+            ul.accordion-list.accordion-list--1
+                li.accordion-list__item.accordion
+                    button.accordion__control
+                        span.accordion__title Title accordion 
+                        span.accordion__icon
+                    .accordion__content
+                        p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, qui?
+                        p Lorem ipsum dolor sit amet.
+                li.accordion-list__item.accordion
+                    button.accordion__control
+                        span.accordion__title Title accordion 
+                        span.accordion__icon
+                    .accordion__content
+                        p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, qui?
+                        p Lorem ipsum dolor sit amet.

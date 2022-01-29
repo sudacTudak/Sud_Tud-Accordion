@@ -1,2 +1,12 @@
-# Sud_Tud-Accordion
-Custom plugin for Accordions
+# _Template-Webpack-Pug
+Template builded on Webpack.
+{
+  PUG,
+  SCSS, PostCSS,
+  Babel,
+  MQPacker,
+  MinCSS,
+  CSV, XML, JSON,
+  Stats,
+  DevServer, HMR
+}
